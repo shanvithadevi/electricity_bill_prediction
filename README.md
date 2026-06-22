@@ -8,3 +8,7 @@ python electricity_bill.py
 
 
 streamlit run app.py
+
+
+deploy
+https://electricitybillprediction-predict-your-bill.streamlit.app/
