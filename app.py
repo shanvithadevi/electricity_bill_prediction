@@ -24,7 +24,7 @@ model = LinearRegression()
 model.fit(X, y)
 
 # Streamlit UI
-st.title("⚡ Pastel-Themed Electricity Bill Prediction")
+st.title("Electricity Bill Prediction⚡")
 
 units = st.number_input("Enter units consumed (kWh):", min_value=50, max_value=1000, step=10)
 season = st.selectbox("Season:", ["Winter", "Summer"])
